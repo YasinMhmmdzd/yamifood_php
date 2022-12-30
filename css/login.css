@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+}
+input , select{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 8px #ddd;
+    width: 70%;
+    display: block;
+    padding: 17px;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+input:focus , select:focus{
+    border: 1px solid #cfa671;
+}
+.login-btn{
+    background-color: #cfa671;
+    color: white;
+    outline: none;
+    border: 2px solid #cfa671;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 25%; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.login-btn:hover{
+    background-color: white;
+    color: #cfa671;
+}
+.err{
+    color: red;
+    font-weight: bold;
+}

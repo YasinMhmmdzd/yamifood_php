@@ -1,0 +1,64 @@
+a{
+    text-decoration:none;
+}
+*{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: Arial;
+}
+.app{
+    display: flex;
+}
+.left-panel{
+    background-color: #cfa671;
+    width: 33%;
+    height: 100vh;
+}
+.panel-body{
+    width: 66%;
+}
+.list-link{
+    color: white;
+    display: block;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.list-link:hover{
+    background-color: #f5d4a9;
+}
+input{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 8px #ddd;
+    width: 70%;
+    display: block;
+    padding: 17px;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+input:focus{
+    border: 1px solid #cfa671;
+}
+.submit-btn{
+    background-color: #cfa671;
+    color: white;
+    outline: none;
+    border: 2px solid #cfa671;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 25%; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: #cfa671;
+}
